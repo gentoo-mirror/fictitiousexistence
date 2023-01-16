@@ -10,7 +10,7 @@ DESCRIPTION="Nyxt - the internet on your terms."
 
 HOMEPAGE="https://nyxt.atlas.engineer/"
 
-inherit xdg
+inherit git-r3 xdg
 EGIT_REPO_URI="https://github.com/atlas-engineer/nyxt"
 EGIT_SUBMODULES=( '*' )
 EGIT_BRANCH="master"
