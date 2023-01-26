@@ -22,7 +22,7 @@ SLOT="0/9999"
 IUSE="X spell"
 RESTRICT='strip'
 
-DEPEND="=net-libs/webkit-gtk:4
+DEPEND="net-libs/webkit-gtk:4 !net-libs/webkit-gtk:5
 	dev-libs/gobject-introspection
 	net-libs/glib-networking
 	gnome-base/gsettings-desktop-schemas
