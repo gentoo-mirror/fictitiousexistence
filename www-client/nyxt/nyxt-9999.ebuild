@@ -34,7 +34,11 @@ LICENSE="BSD CC-BY-SA-3.0"
 SLOT="0"
 IUSE="doc"
 
+<<<<<<< HEAD
 RDEPEND="
+=======
+DEPEND="net-libs/webkit-gtk:4
+>>>>>>> b5b7d3abc283f44bbd4681684186afdc95ad62a1
 	dev-libs/gobject-introspection
 	gnome-base/gsettings-desktop-schemas
 	media-libs/gst-plugins-bad
