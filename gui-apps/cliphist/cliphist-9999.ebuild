@@ -2,18 +2,16 @@
 EAPI=8
 
 
-
 DESCRIPTION="Wayland Clipboard Manager"
 
-HOMEPAGE="https://github.com/sentriz/cliphist"
+HOMEPAGE="https://github.com/sentriz/${PN}"
 
 inherit git-r3 go-module
-EGIT_REPO_URI="https://github.com/sentriz/cliphist"
+EGIT_REPO_URI="${HOMEPAGE}.git"
 EGIT_BRANCH="master"
 
 LICENSE="GPL-3.0"
 SLOT="0/9999"
-#RESTRICT='strip'
 
 DEPEND="dev-lang/go
 		x11-misc/xdg-utils
@@ -32,7 +30,6 @@ src_compile(){
 
 
 src_install() {
-	dobin cliphist
-	default
+	dobin ${PN}
 }
 
