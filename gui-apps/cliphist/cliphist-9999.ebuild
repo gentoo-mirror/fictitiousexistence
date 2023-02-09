@@ -8,10 +8,8 @@ DESCRIPTION="Wayland Clipboard Manager"
 HOMEPAGE="https://github.com/sentriz/cliphist"
 
 inherit git-r3 go-module
-EGIT_REPO_URI="https://github.com/sentriz/cliphist.git"
+EGIT_REPO_URI="https://github.com/sentriz/cliphist"
 EGIT_BRANCH="master"
-#EGIT_CHECKOUT_DIR="${WORKDIR}/cliphist"
-#S="${EGIT_CHECKOUT_DIR}"
 
 LICENSE="GPL-3.0"
 SLOT="0/9999"
@@ -22,6 +20,11 @@ DEPEND="dev-lang/go
 		gui-apps/wl-clipboard"
 
 BDEPEND=""
+
+src_unpack() {
+	git-r3_src_unpack
+	go-module_live_vendor
+}
 
 src_compile(){
 	ego build
