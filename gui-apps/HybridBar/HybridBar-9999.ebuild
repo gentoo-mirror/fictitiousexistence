@@ -13,7 +13,6 @@ EGIT_BRANCH="main"
 LICENSE="MIT"
 SLOT="0"
 IUSE=""
-RESTRICT='strip'
 
 DEPEND="gui-libs/gtk-layer-shell
 		x11-libs/gtk+:3"
