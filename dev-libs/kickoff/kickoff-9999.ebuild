@@ -31,7 +31,7 @@ src_compile(){
 	cargo_src_compile
 }
 
-src_compile(){
+src_install(){
 	cargo_src_install
 }
 
