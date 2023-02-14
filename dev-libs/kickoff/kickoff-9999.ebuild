@@ -35,4 +35,4 @@ src_install(){
 	cargo_src_install
 }
 
-elog "Copy config template from $XDG_CONFIG_HOME/kickoff/config.toml to ~/.config/kickoff/config.toml"
+elog "Copy config template from $""XDG_CONFIG_HOME/kickoff/config.toml to ~/.config/kickoff/config.toml"
