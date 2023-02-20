@@ -32,8 +32,6 @@ DEPEND="net-libs/webkit-gtk:4
 
 BDEPEND="
 	>=dev-lisp/sbcl-2.0.0
-	!!net-libs/webkit-gtk:4.1
-	!!net-libs/webkit-gtk:5
 "
 src_compile(){
 	elog 'skip to install'
