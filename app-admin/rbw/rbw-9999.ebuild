@@ -20,9 +20,6 @@ BDEPEND="virtual/rust"
 src_unpack() {
 		git-r3_src_unpack
 		cargo_live_src_unpack
-		#Below 2 patches allow for multiple profiles. Hopefully one day the PR will be merged. 
-		wget https://raw.githubusercontent.com/doy/rbw/d4453cb44a10f9bb558fd2a5561cc5223ba36a23/src/bin/rbw-agent/actions.rs -O ${S}/src/bin/rbw-agent/actions.rs
-		wget https://raw.githubusercontent.com/doy/rbw/d4453cb44a10f9bb558fd2a5561cc5223ba36a23/src/dirs.rs -O ${S}/src/dirs.rs
 
 }
 
