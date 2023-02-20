@@ -11,7 +11,7 @@ inherit check-reqs flag-o-matic gnome2 optfeature python-any-r1 ruby-single tool
 MY_P="webkitgtk-${PV}"
 DESCRIPTION="Open source web browser engine"
 HOMEPAGE="https://www.webkitgtk.org"
-SRC_URI="https://www.webkitgtk.org/releases/${MY_P}.tar.xz"
+SRC_URI="https://www.webkitgtk.org/releases/webkitgtk-2.39.90.tar.xz"
 
 LICENSE="LGPL-2+ BSD"
 SLOT="4.1/0" # soname version of libwebkit2gtk-4.1
