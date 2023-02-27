@@ -1,0 +1,13 @@
+BDEPEND=virtual/rust >=dev-vcs/git-1.8.2.1[curl] >=virtual/rust-1.53
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=gui-libs/gtk-layer-shell x11-libs/gtk+:3
+DESCRIPTION=A status bar focused on wlroots Wayland compositors
+EAPI=8
+HOMEPAGE=https://github.com/vars1ty/HybridBar
+INHERIT=git-r3 cargo
+IUSE=debug
+LICENSE=MIT
+PROPERTIES=live
+SLOT=0
+_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	cargo	33a6fedd9e309870a65565d0b995fb41
+_md5_=578f3b449210fec5ac24e29c4632eb97

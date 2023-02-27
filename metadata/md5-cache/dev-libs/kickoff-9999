@@ -1,0 +1,12 @@
+BDEPEND=virtual/rust >=dev-vcs/git-1.8.2.1[curl] >=virtual/rust-1.53
+DEFINED_PHASES=compile configure install prepare test unpack
+DESCRIPTION=Minimalistic program launcher written in Rust - Alternative to bemenu/demu/rofi
+EAPI=8
+HOMEPAGE=https://github.com/j0ru/kickoff
+INHERIT=git-r3 cargo
+IUSE=debug
+LICENSE=GPL-3.0
+PROPERTIES=live
+SLOT=0
+_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	cargo	33a6fedd9e309870a65565d0b995fb41
+_md5_=93f0396f413f950e2841800434bfe9e2
