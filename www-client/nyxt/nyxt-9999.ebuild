@@ -22,7 +22,7 @@ SLOT="0/9999"
 IUSE="X spell"
 RESTRICT='strip'
 
-DEPEND="net-libs/webkit-gtk:4.1
+DEPEND="net-libs/webkit-gtk
 	dev-libs/gobject-introspection
 	net-libs/glib-networking
 	gnome-base/gsettings-desktop-schemas
@@ -32,7 +32,6 @@ DEPEND="net-libs/webkit-gtk:4.1
 
 BDEPEND="
 	>=dev-lisp/sbcl-2.0.0
-	!!net-libs/webkit-gtk:5
 "
 src_compile(){
 	elog 'skip to install'
