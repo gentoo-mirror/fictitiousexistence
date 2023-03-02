@@ -237,7 +237,7 @@ src_configure() {
 		-DUSE_LIBSECRET=$(usex gnome-keyring)
 		-DUSE_OPENGL_OR_ES=ON
 		-DUSE_OPENJPEG=$(usex jpeg2k)
-		-DUSE_SOUP2=ON
+		-DUSE_SOUP2=OFF
 		-DUSE_WOFF2=ON
 		-DUSE_WPE_RENDERER=$(usex wayland) # WPE renderer is used to implement accelerated compositing under wayland
 	)
