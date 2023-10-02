@@ -1,4 +1,3 @@
-
 EAPI=8
 
 
@@ -8,7 +7,6 @@ HOMEPAGE="https://github.com/doy/${PN}"
 
 inherit git-r3 cargo
 EGIT_REPO_URI="${HOMEPAGE}.git"
-EGIT_BRANCH="master"
 
 LICENSE="MIT"
 SLOT="0"
