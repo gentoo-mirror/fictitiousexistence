@@ -2,8 +2,6 @@ app-admin/rbw 9999: Unofficial Bitwarden cli
 app-misc/joshuto 9999: Ranger-like terminal file manager written in Rust
 app-misc/khal 0.10.5: A CalDAV based calendar
 dev-libs/kickoff 9999: Minimalistic program launcher written in Rust - Alternative to bemenu/demu/rofi
-gui-apps/HybridBar 9999: A status bar focused on wlroots Wayland compositors
 gui-apps/cliphist 9999: Wayland Clipboard Manager
 net-im/profanity 0.13.1: A console based XMPP client inspired by Irssi
-net-libs/webkit-gtk 2.38.5-r410 2.40.0-r410: Open source web browser engine
 www-client/nyxt 9999: Nyxt - the internet on your terms.
