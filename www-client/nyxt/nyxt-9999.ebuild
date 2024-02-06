@@ -64,7 +64,7 @@ src_install(){
 	fi
 
 	for icon in 16x16 32x32  128x128 256x256 512x512; do
-		newicon -s ${icon} "${S}/assets/nyxt_${i}.png" ${PN}.png
+		newicon -s ${icon} "${S}/assets/nyxt_${icon}.png" ${PN}.png
 	done
 
 	domenu "${S}/assets/nyxt.desktop"
