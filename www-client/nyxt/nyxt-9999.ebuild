@@ -10,7 +10,7 @@ HOMEPAGE="https://nyxt.atlas.engineer/"
 
 if [[ ${PV} == 9999 ]] ; then
 	inherit git-r3
-	EGIT_REPO_URI="https://github.com/atlas-engineer/nyxt"
+	EGIT_REPO_URI="https://github.com/atlas-engineer/${PN}.git"
 	EGIT_SUBMODULES=( '*' )
     EGIT_BRANCH="master"
 	EGIT_CHECKOUT_DIR="${S}"
