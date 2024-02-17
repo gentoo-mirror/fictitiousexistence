@@ -1,4 +1,3 @@
 app-misc/joshuto 9999: Ranger-like terminal file manager written in Rust
-app-misc/khal 0.10.5: A CalDAV based calendar
 dev-libs/kickoff 9999: Minimalistic program launcher written in Rust - Alternative to bemenu/demu/rofi
 gui-apps/cliphist 9999: Wayland Clipboard Manager
